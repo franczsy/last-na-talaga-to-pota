@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "bento-fortpolio",
+  "builds": [
+    {
+      "src": "bento.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "bento.html"
+    }
+  ]
+}
